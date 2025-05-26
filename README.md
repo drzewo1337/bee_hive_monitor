@@ -59,3 +59,10 @@ Python
 - Subscribes to the topic.
 
 - Saves received data into .csv or .json.
+
+----------------------------------------------------
+
+## Architecture
+[architecture](BEE HIVE MONITOR ARCHITECTURE.pdf)
+
+If there will be choosed only one path in case of avaible connection with ESP32. 
