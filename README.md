@@ -10,7 +10,7 @@ This project consists of two parts:
 ----------------------------------------------------
 
 ## Technical Details
-1. ESP32 - Sending MQTT Data
+1. ESP32 - Sending MQTT Data (first path in architecture)
 - Connects to a WiFi network.
 
 - Uses WiFiClientSecure for secure connection to the MQTT broker (HiveMQ Cloud).
@@ -32,34 +32,6 @@ This project consists of two parts:
 
 - Automatically adds the timestamp of message reception.
   
-----------------------------------------------------
-
-## Requirements
-- ESP32 with Arduino IDE (libraries: WiFi, WiFiClientSecure, PubSubClient)
-
-- Python 3.x
-
-- Paho MQTT library:
-  
-pip install paho-mqtt
-
-----------------------------------------------------
-
-## Configuration
-ESP32
-- Set WiFi credentials.
-
-- Enter MQTT broker details.
-
-- Place the root CA certificate to match your broker.
-
-Python
-- Connects to the same MQTT broker.
-
-- Subscribes to the topic.
-
-- Saves received data into .csv or .json.
-
 ----------------------------------------------------
 
 ## Architecture
