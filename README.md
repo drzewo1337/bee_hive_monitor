@@ -35,6 +35,6 @@ This project consists of two parts:
 ----------------------------------------------------
 
 ## Architecture
-[Architecture](bee_hive_monitor_architecture.jpg)
+[Architecture](sample_architecture.jpg)
 
 Only one path will be chosen if a connection with the ESP32 is available
