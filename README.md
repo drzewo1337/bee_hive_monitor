@@ -63,6 +63,6 @@ Python
 ----------------------------------------------------
 
 ## Architecture
-[architecture](bee_hive_monitor_architecture.jpg)
+[Architecture](bee_hive_monitor_architecture.jpg)
 
-If there will be choosed only one path in case of avaible connection with ESP32. 
+Only one path will be chosen if a connection with the ESP32 is available
