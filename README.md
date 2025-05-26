@@ -63,6 +63,6 @@ Python
 ----------------------------------------------------
 
 ## Architecture
-[architecture](BEE HIVE MONITOR ARCHITECTURE.pdf)
+[architecture](bee_hive_monitor_architecture.jpg)
 
 If there will be choosed only one path in case of avaible connection with ESP32. 
